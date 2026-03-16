@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  padding:0;
+  font-family: 'Roboto', "Arial" sans-serif;
+}
+
+.site_hero{
+  background-image: url("../image/sky_picture.jpg");
+  max-width: 100%;
+  height: 100vh;
+  background-size: cover;
+  /* background-position: center; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.container{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header  */
+
+.site_header{
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.logo img{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+}
+.logo img:hover{
+  box-shadow: 0 0 30px rgb(0, 242, 255);
+  transition: all 0.3s ease;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav_link{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav_link ul{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 10px;
+  
+}
+
+.link_button li{
+  list-style:none;
+  padding-right: 64px;
+}
+
+.text_button{
+  color: #fff;
+  /* color:#60f4fc; */
+  text-decoration: none;
+  font-size: 18px;
+}
+.text_button:hover{
+  color:#60f4fc;
+  /* color: #3fe9b8; */
+  opacity: 0.9;
+  border-bottom:3px solid #60f4fc;
+  transition: all 0.1s ease;
+}
+.text_button:active{
+  color: #38b793;
+}
+
+/* HERO section  */
+
+
+.hero_section{
+  display: flex;
+  color:#fff;
+  text-align:left;
+  padding-top: 50px;
+  padding-left: 900px;
+}
+.content{
+  padding: 0;
+  border: 0;
+}
+.hero_heading{
+  font-weight: 700;
+  padding-top: 43px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.hero_name{
+  color: #2da4ff;
+  font-size: 50px;
+}
+.hero_content{
+  color:#ffffff;
+  font-size: 18px;
+}
+.hero_social{
+  display: flex;
+  margin-top: 20px;
+}
+
+.hero_social ul {
+  color: #993535;
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  background: none;
+}
+.hero_social svg{
+  margin-right: 15px;
+}
+.hero_social svg:hover{
+  fill: #46aef4;
+  opacity: 0.8;
+  box-shadow: 0 0 70px rgb(0, 204, 255);
+  transition: all 0.3s ease;
+}
